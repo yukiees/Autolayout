@@ -27,21 +27,21 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="72"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="cebu.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="e66-Bk-5Kb">
-                                                    <rect key="frame" x="20" y="10" width="60" height="52"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cebu.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="e66-Bk-5Kb">
+                                                    <rect key="frame" x="10" y="10" width="60" height="60"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="60" id="1vW-GD-44m"/>
-                                                        <constraint firstAttribute="height" constant="60" id="bOA-Kh-cpk"/>
+                                                        <constraint firstAttribute="height" constant="60" id="tzJ-ED-sfi"/>
+                                                        <constraint firstAttribute="width" constant="60" id="w8E-5P-W1C"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="フィリピン" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJm-W1-UEN">
-                                                    <rect key="frame" x="90" y="10" width="71.5" height="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="フィリピン" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kJm-W1-UEN">
+                                                    <rect key="frame" x="80" y="10" width="71.5" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="セブ島" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Feg-by-Zat">
-                                                    <rect key="frame" x="90" y="29" width="94" height="37"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="セブ島" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Feg-by-Zat">
+                                                    <rect key="frame" x="80" y="29" width="94" height="37"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -49,12 +49,15 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Feg-by-Zat" firstAttribute="top" secondItem="kJm-W1-UEN" secondAttribute="bottom" constant="2" id="52I-lb-wwJ"/>
-                                                <constraint firstItem="e66-Bk-5Kb" firstAttribute="top" secondItem="IK1-Fx-8Qk" secondAttribute="top" constant="10" id="I4m-87-EzI"/>
-                                                <constraint firstItem="kJm-W1-UEN" firstAttribute="leading" secondItem="e66-Bk-5Kb" secondAttribute="trailing" constant="10" id="JsQ-k9-Vyz"/>
-                                                <constraint firstAttribute="bottom" secondItem="e66-Bk-5Kb" secondAttribute="bottom" constant="10" id="ZkQ-W1-7ov"/>
+                                                <constraint firstItem="e66-Bk-5Kb" firstAttribute="leading" secondItem="IK1-Fx-8Qk" secondAttribute="leading" constant="10" id="BJL-20-9eM"/>
+                                                <constraint firstItem="e66-Bk-5Kb" firstAttribute="top" secondItem="IK1-Fx-8Qk" secondAttribute="top" constant="10" id="Cgq-aM-iJ1"/>
+                                                <constraint firstItem="Feg-by-Zat" firstAttribute="top" secondItem="kJm-W1-UEN" secondAttribute="bottom" constant="2" id="KJD-Fg-CFp"/>
+                                                <constraint firstItem="Feg-by-Zat" firstAttribute="leading" secondItem="e66-Bk-5Kb" secondAttribute="trailing" constant="10" id="PQG-3u-Qsf"/>
                                                 <constraint firstItem="kJm-W1-UEN" firstAttribute="top" secondItem="IK1-Fx-8Qk" secondAttribute="top" constant="10" id="b8c-GY-wWH"/>
-                                                <constraint firstItem="Feg-by-Zat" firstAttribute="leading" secondItem="e66-Bk-5Kb" secondAttribute="trailing" constant="10" id="czg-gI-VaH"/>
                                                 <constraint firstItem="Feg-by-Zat" firstAttribute="top" secondItem="kJm-W1-UEN" secondAttribute="bottom" constant="2" id="fTW-Rh-C1e"/>
+                                                <constraint firstItem="kJm-W1-UEN" firstAttribute="top" secondItem="IK1-Fx-8Qk" secondAttribute="top" constant="10" id="ksd-Rt-4ZN"/>
+                                                <constraint firstItem="kJm-W1-UEN" firstAttribute="leading" secondItem="e66-Bk-5Kb" secondAttribute="trailing" constant="10" id="m3F-7F-pxs"/>
+                                                <constraint firstItem="Feg-by-Zat" firstAttribute="top" secondItem="kJm-W1-UEN" secondAttribute="bottom" constant="2" id="rAV-2A-jwN"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -74,7 +77,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bRt-zI-19t" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="124" y="3430"/>
+            <point key="canvasLocation" x="124" y="3429.5352323838083"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="FrD-Nr-Rfc">
